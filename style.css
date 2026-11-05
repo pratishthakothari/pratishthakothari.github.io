@@ -1,0 +1,150 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #4A3B35;
+    background-color: #F5EFE6;
+}
+
+header {
+    background-color: #F8D7DF;
+    border-bottom: 2px solid #D9849B;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4A3B35;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #4A3B35;
+}
+
+.active {
+    font-weight: bold;
+}
+
+a {
+    color: #4A3B35;
+}
+
+h1 {
+    color: #4A3B35;
+}
+
+h2 {
+    border-bottom: 2px solid #D9849B;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.quote {
+    background-color: #F8D7DF;
+    border-left: 4px solid #D9849B;
+    padding: 5px 15px;
+    margin: 30px 0;
+    font-style: italic; 
+    font-size: large;
+    text-align: center;
+}
+
+.name {
+    background-color: #F8D7DF;
+    padding: 5px 15px;
+    margin: 30px 0;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.intro {
+    overflow: auto;
+}
+
+.intro h1 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.photo {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: #F8D7DF;
+    border: 2px solid #D9849B;
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+    object-fit: cover;
+}
+
+.placeholder {
+    background-color: yellow;
+}
+
+.date {
+    color: #8C7B72;
+}
+
+footer {
+    background-color: #F8D7DF;
+    border-top: 2px solid #D9849B;
+    margin-top: 40px;
+    padding: 10px 15px;
+}
+
+.resume-page {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 20px auto;
+}
+
+.research-page {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 20px auto;
+}
+
+.img-left {
+    float: left;
+    width: 250px;
+    margin: 5px 20px 10px 0;
+}
+
+.img-right {
+    float: right;
+    width: 250px;
+    margin: 5px 0 10px 20px;
+}
+
+footer {
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .img-left, .img-right {
+        float: none;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 0 15px 0;
+    }
+}
