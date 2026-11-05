@@ -1,1 +1,0 @@
-# pratishthakothari.github.io
