@@ -1,8 +1,7 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0;
+    padding: 20px 50px;
     line-height: 1.6;
     color: #4A3B35;
     background-color: #F5EFE6;
@@ -10,15 +9,15 @@ body {
 
 header {
     background-color: #F8D7DF;
-    border-bottom: 2px solid #D9849B;
+    border-bottom: 3px solid #D9849B;
     padding: 10px 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .logo {
     display: block;
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
     color: #4A3B35;
     text-decoration: none;
@@ -46,6 +45,9 @@ a {
 h1 {
     color: #4A3B35;
 }
+.intro p {
+    font-size: 20px;
+}
 
 h2 {
     border-bottom: 2px solid #D9849B;
@@ -55,12 +57,12 @@ h2 {
 
 .quote {
     background-color: #F8D7DF;
-    border-left: 4px solid #D9849B;
+    border-left: 3px solid #D9849B;
     padding: 5px 15px;
     margin: 30px 0;
-    font-style: italic; 
-    font-size: large;
+    font-style: italic;
     text-align: center;
+    font-size: 22px;
 }
 
 .name {
@@ -83,13 +85,13 @@ h2 {
 
 .photo {
     float: right;
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     margin-left: 20px;
     background-color: #F8D7DF;
     border: 2px solid #D9849B;
     text-align: center;
-    line-height: 300px;
+    line-height: 450px;
     font-size: 40px;
     object-fit: cover;
 }
@@ -112,6 +114,7 @@ footer {
 .resume-page {
     display: block;
     width: 100%;
+    max-width: 900px;
     box-sizing: border-box;
     margin: 0 auto 20px auto;
 }
@@ -119,6 +122,7 @@ footer {
 .research-page {
     display: block;
     width: 100%;
+    max-width: 900px;
     box-sizing: border-box;
     margin: 0 auto 20px auto;
 }
