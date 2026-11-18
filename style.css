@@ -85,13 +85,13 @@ h2 {
 
 .photo {
     float: right;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     margin-left: 20px;
     background-color: #F8D7DF;
     border: 2px solid #D9849B;
     text-align: center;
-    line-height: 450px;
+    line-height: 500px;
     font-size: 40px;
     object-fit: cover;
 }
