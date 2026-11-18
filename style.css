@@ -129,13 +129,13 @@ footer {
 
 .img-left {
     float: left;
-    width: 250px;
+    width: 300px;
     margin: 5px 20px 10px 0;
 }
 
 .img-right {
     float: right;
-    width: 250px;
+    width: 300px;
     margin: 5px 0 10px 20px;
 }
 
