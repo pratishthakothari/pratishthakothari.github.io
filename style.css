@@ -155,3 +155,18 @@ footer {
 .about > p {
     font-size: 18px;
 }
+.big-quote {
+    margin-bottom: 50px;
+}
+
+.big-quote p {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.big-quote .name {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
