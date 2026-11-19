@@ -32,6 +32,22 @@ nav ul {
 
 nav a {
     color: #4A3B35;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 18px;
+    border-bottom: 3px solid transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background-color: #EFB8C6;
+}
+
+nav a:active {
+    background-color: #D9849B;
+    color: white;
 }
 
 .active {
@@ -75,7 +91,14 @@ h2 {
 }
 
 .intro {
-    overflow: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 30px 0 40px 0;
+}
+
+.intro-text {
+    flex: 1;
 }
 
 .intro h1 {
@@ -84,16 +107,11 @@ h2 {
 }
 
 .photo {
-    float: right;
-    width: 500px;
-    height: 500px;
-    margin-left: 20px;
-    background-color: #F8D7DF;
-    border: 2px solid #D9849B;
-    text-align: center;
-    line-height: 500px;
-    font-size: 40px;
+    width: 460px;
+    height: 460px;
     object-fit: cover;
+    border: 2px solid #D9849B;
+    flex-shrink: 0;
 }
 
 .placeholder {
@@ -160,13 +178,29 @@ footer {
 }
 
 .big-quote p {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .big-quote .name {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0;
     margin-bottom: 0;
+}
+@media (max-width: 800px) {
+    .intro {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .photo {
+        width: 100%;
+        height: 400px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
 }
