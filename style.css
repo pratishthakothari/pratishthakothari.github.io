@@ -204,3 +204,12 @@ footer {
         flex-wrap: wrap;
     }
 }
+.banner {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
