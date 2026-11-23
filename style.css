@@ -8,19 +8,31 @@ body {
 }
 
 header {
-    background-color: #F8D7DF;
-    border-bottom: 3px solid #D9849B;
-    padding: 10px 15px;
+    background-image: linear-gradient(rgba(74, 59, 53, 0.55), rgba(74, 59, 53, 0.55)), url("images/old-well.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #D9849B;
+    padding: 70px 15px 15px 15px;
     margin-bottom: 40px;
 }
 
 .logo {
     display: block;
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: bold;
-    color: #4A3B35;
+    color: white;
     text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    text-align: center;
+    color: #fae3e9;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 5px 0 40px 0;
 }
 
 nav ul {
@@ -31,7 +43,7 @@ nav ul {
 }
 
 nav a {
-    color: #4A3B35;
+    color: #f0ecea;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -42,12 +54,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #EFB8C6;
+    background-color: rgba(248, 215, 223, 0.3);
 }
 
-nav a:active {
-    background-color: #D9849B;
-    color: white;
+nav a.active {
+    font-weight: bold;
+    border-bottom: 3px solid #F8D7DF;
 }
 
 .active {
@@ -189,27 +201,17 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
 }
-@media (max-width: 800px) {
-    .intro {
-        flex-direction: column-reverse;
-        gap: 25px;
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
     }
 
-    .photo {
-        width: 100%;
-        height: 400px;
+    .logo {
+        font-size: 36px;
     }
 
-    nav ul {
-        flex-wrap: wrap;
+    header {
+        padding-top: 40px;
     }
-}
-.banner {
-    display: block;
-    clear: both;
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    margin-top: 40px;
-    box-sizing: border-box;
 }
