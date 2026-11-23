@@ -215,3 +215,38 @@ footer {
         padding-top: 40px;
     }
 }
+.buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #D9849B;
+    color: white;
+    border: 2px solid #D9849B;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+    background-color: #B8566F;
+    border-color: #B8566F;
+}
+
+.button-outline {
+    background-color: transparent;
+    color: #4A3B35;
+}
+
+.button-outline:hover {
+    background-color: #D9849B;
+    border-color: #D9849B;
+    color: white;
+}
